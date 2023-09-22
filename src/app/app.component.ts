@@ -7,4 +7,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'keepNoteApp';
+  mytitle = 'Test interpolation';
+ public btnCSSStyle = 'btn btn-warning';
+ public IsDisable = false;
+ public buttonText ="Login!!";
+ public userName: String;
+ constructor(){
+  this.userName="StackRoute!!";
+ }
+ 
+//  validateData = () =>{
+
+//   this.buttonText ="Validating !!" 
+//  }
+//  updateUserName($event){
+
+//   this.userName = $event.target.value;
+//  }
+
+
 }
